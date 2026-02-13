@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="static/colors.css">
+        <!-- <style>
+            h1 {
+                font-size: 72px;
+                color: red
+            }
+        </style> -->
+    </head>
+    <body>
+        <form method="GET">
+            <h1>Recenze</h1>
+            <label for="login">Uživatel: </label>
+            <input type="text" id="login" name="name" placeholder="Jméno">
+            <label for="recenze">Recenze: </label>
+            <input type="text" id="recenze" name="recenze" placeholder="Napiš recenzi" />
+
+            <p>Recenze uživatele {{ name }}: {{ recenze }} </p> 
+            <button type="submit">Odeslat</button>
+        </form>
+    </body>
+</html>
