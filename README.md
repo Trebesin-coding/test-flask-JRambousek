@@ -13,3 +13,25 @@
 ## JSON
 
 8.  data z formuláře ulož také do JSON recenze.json ve složce data
+
+
+# Hodnocení:
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+❌
+
+🚩 proč appendujete k souboru recenze_json, napsana_recenze by měla být odsazeno pod podmínku kontrolující, že name a recenze existují
+
+
+## Známka: 1
